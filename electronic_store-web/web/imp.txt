@@ -1,0 +1,13 @@
+<div>  
+           <div>
+               
+
+            <form action="s1">
+    <img src="data:image/gif;base64,<%=pb.getImage()%> " alt="Tshirt" width="300" height="200">
+ <% out.println(pb.getProductname());%><br>
+                      <input type="submit" class="btn btn-success" value="ADD TO CART">
+            </form>
+        
+      </div>
+         </div>
+        
